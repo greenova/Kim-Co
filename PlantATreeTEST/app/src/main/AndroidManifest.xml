@@ -22,6 +22,18 @@
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TreesActivity"
+            android:label="@string/title_activity_trees"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EquipmentActivity"
+            android:label="@string/title_activity_equipment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CartActivity"
+            android:label="@string/title_activity_cart"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

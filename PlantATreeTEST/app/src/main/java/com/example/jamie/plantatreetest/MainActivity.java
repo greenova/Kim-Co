@@ -8,10 +8,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
 
+    public void buttonClick(View v){
+        if(v.getId() == R.id.button){
+            Intent i = new Intent(MainActivity.this, MenuActivity.class);
+            startActivity(i);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
