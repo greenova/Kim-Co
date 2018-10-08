@@ -8,6 +8,24 @@
     tools:context=".EquipmentActivity"
     tools:showIn="@layout/activity_equipment">
 
+    <Button
+        android:id="@+id/soilInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="302dp"
+        android:onClick="buttonClick"
+        android:text="Info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/equipmentAddButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/shovelinfo"
+        app:layout_constraintTop_toBottomOf="@+id/shovelinfo" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -38,12 +56,30 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/equipmentInfoButton"
+        app:layout_constraintEnd_toStartOf="@+id/shovelinfo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="312dp"
+        android:text="Loam Soil"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/soilInfoButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
     <Button
-        android:id="@+id/equipmentInfoButton"
+        android:id="@+id/shovelinfo"
         android:layout_width="89dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -60,7 +96,7 @@
     <Button
         android:id="@+id/equipmentAddButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginTop="82dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
@@ -68,7 +104,22 @@
         android:text="Add to Cart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/equipmentInfoButton"
+        app:layout_constraintStart_toEndOf="@+id/shovelinfo"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/soilAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="302dp"
+        android:text="Add to Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toEndOf="@+id/shovelinfo"
+        app:layout_constraintTop_toBottomOf="@+id/equipmentAddButton" />
 
 </android.support.constraint.ConstraintLayout>

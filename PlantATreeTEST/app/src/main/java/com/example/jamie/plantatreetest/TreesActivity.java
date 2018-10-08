@@ -21,5 +21,10 @@ public class TreesActivity extends AppCompatActivity {
             Intent iSilver = new Intent(TreesActivity.this, TreeInfoActivity.class);
             startActivity(iSilver);
         }
+
+        if (v.getId() == R.id.oakInfoButton) {
+            Intent iOak = new Intent(TreesActivity.this, oak_info.class);
+            startActivity(iOak);
+        }
     }
 }

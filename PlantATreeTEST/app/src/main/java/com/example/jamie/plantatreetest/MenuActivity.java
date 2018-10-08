@@ -20,7 +20,7 @@ public class MenuActivity extends AppCompatActivity{
             startActivity(iTree);
         }
 
-        if(v.getId() == R.id.equipmentInfoButton){
+        if(v.getId() == R.id.shovelinfo){
             Intent iEquipment = new Intent(MenuActivity.this, EquipmentActivity.class);
             startActivity(iEquipment);
         }

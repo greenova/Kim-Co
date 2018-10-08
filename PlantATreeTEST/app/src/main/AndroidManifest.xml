@@ -12,6 +12,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,28 +22,52 @@
         </activity>
         <activity
             android:name=".MenuActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TreesActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_trees"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EquipmentActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_equipment"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CartActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_cart"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TreeInfoActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_tree_info"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EquipmentInfoActivity"
+            android:configChanges="orientation"
             android:label="@string/title_activity_equipment_info"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".soil_info"
+            android:configChanges="orientation"
+            android:label="soil_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oak_info"
+            android:configChanges="orientation"
+            android:label="oak_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
