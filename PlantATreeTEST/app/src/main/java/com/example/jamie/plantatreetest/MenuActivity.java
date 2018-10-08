@@ -1,12 +1,8 @@
 package com.example.jamie.plantatreetest;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 public class MenuActivity extends AppCompatActivity{
@@ -24,7 +20,7 @@ public class MenuActivity extends AppCompatActivity{
             startActivity(iTree);
         }
 
-        if(v.getId() == R.id.equipmentButton){
+        if(v.getId() == R.id.equipmentInfoButton){
             Intent iEquipment = new Intent(MenuActivity.this, EquipmentActivity.class);
             startActivity(iEquipment);
         }

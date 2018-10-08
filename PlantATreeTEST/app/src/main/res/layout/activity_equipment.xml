@@ -13,6 +13,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_equipment" />
+    <include
+        android:id="@+id/shovelInfoButton"
+        layout="@layout/content_equipment" />
 
 </android.support.design.widget.CoordinatorLayout>

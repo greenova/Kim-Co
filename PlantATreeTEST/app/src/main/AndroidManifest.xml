@@ -34,6 +34,14 @@
         <activity
             android:name=".CartActivity"
             android:label="@string/title_activity_cart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TreeInfoActivity"
+            android:label="@string/title_activity_tree_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EquipmentInfoActivity"
+            android:label="@string/title_activity_equipment_info"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

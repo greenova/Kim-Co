@@ -5,4 +5,6 @@
     <string name="title_activity_trees">TreesActivity</string>
     <string name="title_activity_equipment">EquipmentActivity</string>
     <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_tree_info">TreeInfoActivity</string>
+    <string name="title_activity_equipment_info">EquipmentInfoActivity</string>
 </resources>

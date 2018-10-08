@@ -22,10 +22,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/equipmentButton" />
+        app:layout_constraintTop_toBottomOf="@+id/equipmentInfoButton" />
 
     <Button
-        android:id="@+id/equipmentButton"
+        android:id="@+id/equipmentInfoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="135dp"
@@ -52,7 +52,7 @@
         android:layout_marginBottom="51dp"
         android:onClick="buttonClick"
         android:text="Trees"
-        app:layout_constraintBottom_toTopOf="@+id/equipmentButton"
+        app:layout_constraintBottom_toTopOf="@+id/equipmentInfoButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menuText" />
